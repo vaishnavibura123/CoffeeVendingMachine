@@ -1,13 +1,14 @@
 # CoffeeVendingMachine
 ## Description of the Project
-This Java program is designed for a Coffee Vending Machine. Three different types of coffee provided with required ingredients like water, milk and coffee beans.
-Types of coffee
-* Espresso
-* Latte
+This is a Java console application that simulates a coffee machine. The coffee machine offers three different types of coffee: Espresso, Latte, and Cappuccino. The user can buy a coffee of their choice, provided that the machine has enough ingredients to make it. The machine also allows the user to fill it up with more ingredients, take the money in the money box, or view the remaining ingredients and money in the machine.
 ## Requirements
 In order to utilize this program, it is necessary to have the Java Development Kit (JDK) and an Integrated Development Environment (IDE), such as IntelliJ IDEA, installed on your system, along with an appropriate editor.
 ## Working
-* This project aims to create a user-friendly platform for customers to request car maintenance services. Users can input their car's make and model, as well as the desired services, and receive a detailed bill that includes any applicable discounts or free services. 
-* The goal is to simplify the process of getting car maintenance by providing a personalized experience that meets the customer's specific needs. 
-* The system promotes transparency and allows customers to keep track of all costs incurred. Additionally, the project incentivizes customers to use the platform by offering discounts and free services based on their requirements, which increases customer loyalty.
-* Overall, the project is focused on creating a satisfactory experience for both customers and service providers.
+* buy: allows you to buy a coffee of your choice.
+  fillIngredients: lets you add more ingredients to the machine.
+  take: allows you to take the money in the money box.
+  show: displays the remaining ingredients and money in the machine.
+  analytics: shows the total number of coffees sold, total amount earned, and total ingredients consumed.
+  exit: exits the program.
+*To select an option, type its name and press Enter. If you select buy, you will be prompted to choose a type of coffee:
+Type the number of the coffee you want to buy and press Enter. If there are enough ingredients in the machine to make the selected coffee, it will be dispensed and the corresponding amount of money will be added to the money box. If there are not enough ingredients, an error message will be displayed and no coffee will be dispensed.
